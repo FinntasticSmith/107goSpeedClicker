@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Mario's Pest Control</title>
+    </head>
+    <body style="text-align:center;">
+        <h1 name="title"> Mario's Pest Control Invoice</h1>
+        <img src="https://images.unsplash.com/photo-1612404730960-5c71577fca11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="mario" width="300" height="300">
+        <h3> Thank you for choosing Mario's Pest Control.  Please enter the total
+            amount of baddies caught.
+        </h3>
+    
+    <form>
+       
+    <label for="goombas">Total Goombas Caught:</label>
+     <input type="text" id="goombas" name="goombas">
+     <img src="https://mario.wiki.gallery/images/6/65/Goomba_-_Mario_Party_Superstars.png" alt="goomba"
+     width="100" height ="100">
+    <br><br>
+
+    <label for="bobombs">Total Bob-Ombs Caught:</label>
+    <input type="text" id="bobombs" name="bobombs">
+    <img src="https://mario.wiki.gallery/images/9/9e/Bobomb_-_MarioPartyStarRush.png"
+    width="100" height = "100">
+     <br><br>
+     <label for="cheep">Total Number or Cheep-cheeps Caught:</label>
+     <input type="text" id="cheep" name="cheep">
+     <img src="https://mario.wiki.gallery/images/thumb/6/63/CheepCheepNSMBU.png/1200px-CheepCheepNSMBU.png"
+     width="100" height="100">
+    <br><br>
+    <br>
+    <button type="button" onclick="calculateTotal()">Calculate Total</button>
+</form>
+<br>
+<br>
+<br>
+<p id="total"></p>
+
+<footer>   
+    <p>
+    <a href="mailto:mario@MPC.com">mario@MPC.com</a>
+    <a href="www.MarioPestControl.com">MarioPestControl.com</a>
+    <a> 123 Nintendo Way, Peaches Realm, Peaches Kingdom, 12345</a>
+    </p>
+</footer>
+
+
+        <script src="index.js"></script>
+</body>
+</html>
